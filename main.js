@@ -457,7 +457,6 @@ window.onload=()=>{
             var nm=JSON.parse(reqq.responseText);
 
     for(var i=0;i<namelist.length;i++){
-      if(namelist[i].innerText=="林子博") namelist[i].style.color="#996300";
         if(nm[namelist[i].innerText]){
           var bdg=document.createElement("span")
           bdg.className="qojpm-badge"
